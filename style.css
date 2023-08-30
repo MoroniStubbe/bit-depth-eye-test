@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+body #canvasses {
+  width: 100vw;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+}
+body #canvasses canvas {
+  width: 30vw;
+  height: 30vh;
+}
+body #controls {
+  width: 100vw;
+  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+}
+body #controls button {
+  width: 10vw;
+  height: 10vh;
+  margin: 0 2vw;
+  font-size: 3vh;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="canvasses">
+        <canvas id="c1"></canvas>
+        <canvas id="c2"></canvas>
+    </div>
+    <div id="controls">
+        <button id="same" onclick="isSame()">Same (s)</button>
+        <button id="different" onclick="isDifferent()">Different (d)</button>
+    </div>
+    <div id="data">
+        <div style="display: none;">Answer: <span id="answer"></span></div>
+        <div>Accuracy: <span id="acc">-</span></div>
+        <div>Bit depth: <input id="bitDepth" type="number" value="8" onchange="updateBitDepth()"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
